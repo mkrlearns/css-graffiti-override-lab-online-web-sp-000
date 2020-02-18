@@ -25,5 +25,5 @@
 }
 
 #wall .parent #tag-7.slick:empty {
-  /*display: none;*/
+  display: none;
 }
