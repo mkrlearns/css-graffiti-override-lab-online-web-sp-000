@@ -1,1 +1,29 @@
 /* write your override styles here */
+
+#wall .tag-1 {
+  display: none;
+}
+
+#wall #tag-2:empty {
+  display: none;
+}
+
+#wall #tag-3.slick:empty {
+  display: none;
+}
+
+#wall #tag-4:empty {
+  display: none;
+}
+
+#wall .parent #tag-5.slick:empty {
+  display: none;
+}
+
+#wall .parent #tag-6:only-child:empty {
+  display: none;
+}
+
+#wall .parent #tag-7.slick:empty {
+  display: none;
+}
